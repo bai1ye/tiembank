@@ -1,0 +1,39 @@
+/* Element Plus 样式覆盖 */
+:root {
+  /* 主题色覆盖 */
+  --el-color-primary: #1677ff;
+  --el-color-primary-light-3: #4096ff;
+  --el-color-primary-light-5: #69b1ff;
+  --el-color-primary-light-7: #91cbff;
+  --el-color-primary-light-8: #b7e0ff;
+  --el-color-primary-light-9: #e6f4ff;
+  --el-color-primary-dark-2: #0958d9;
+}
+
+/* 按钮样式优化 */
+.el-button {
+  @apply font-medium;
+}
+
+.el-button--primary {
+  @apply shadow-sm;
+}
+
+/* 表单样式优化 */
+.el-form-item__label {
+  @apply font-medium;
+}
+
+.el-input__wrapper {
+  @apply shadow-sm;
+}
+
+/* 消息提示样式优化 */
+.el-message {
+  @apply shadow-md;
+}
+
+/* 弹窗样式优化 */
+.el-dialog {
+  @apply rounded-lg shadow-lg;
+}
